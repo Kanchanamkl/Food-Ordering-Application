@@ -1,0 +1,266 @@
+*{
+
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+   
+    padding: 1%;
+    width:80%;
+    margin:auto;
+
+}
+
+.wrapper_mng_order{
+    padding: 1%;
+    width:90%;
+    margin:auto;
+
+}
+.text-center{
+    text-align: center;
+    
+}
+
+.clearfix{
+    text-align:none;
+    clear: both;
+
+}
+
+.hyperlink{
+    color: white;
+    font-style: normal;
+}
+
+
+/* css f table */
+
+.tbl-full{
+    width: 100%;
+    
+}
+.tbl_mng_order tr td{
+    border-bottom: 2px solid black;
+    
+    padding-left: 3%;
+    padding-right: 2%;
+
+    text-align: left;
+
+}
+
+.tbl_mng_order tr th{
+    border-bottom: 3px solid black;
+    
+    padding-left: 3%;
+    padding-right: 2%;
+
+    text-align: left;
+
+}
+
+table tr th{
+    border-bottom: 2px solid black;
+    
+    padding-left: 3%;
+    padding-right: 2%;
+
+    text-align: left;
+}
+
+table tr td{
+    
+
+    padding-left: 3%;
+    padding-right: 2%;
+
+
+  
+
+}
+
+.btn-primary{
+    background-color: rgb(141, 141, 216);
+    padding: 1%;
+    border-radius: 10px;
+    border-color:lightblue ;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.btn-primary:hover{
+    background-color: rgb(16, 16, 126);
+    cursor:pointer;
+}
+
+
+.btn-changepw{
+    background-color: rgb(130, 112, 248);
+    padding: 1%;
+    border-radius: 10px;
+    border-color:rgb(130, 112, 248);
+    color: white;
+    font-weight: bold;
+    
+}
+.btn-update{
+    background-color: rgb(4, 182, 16);
+    padding: 1%;
+    border-radius: 10px;
+    border-color: rgb(4, 182, 16);
+    color: white;
+    font-weight: bold;
+    
+}
+
+.btn-update:hover{
+
+    background-color: rgb(0, 176, 12);
+    cursor:pointer;
+
+}
+/* css for Menu */
+
+.btn-delete{
+    background-color: rgb(222, 132, 114);
+    padding: 1%;
+    border-radius: 10px;
+    border-color:rgb(222, 132, 114);
+    color: white;
+    font-weight: bold;
+
+}
+
+.btn-delete:hover{
+    background-color: rgb(231, 53, 4);
+    cursor:pointer;
+
+}
+
+.success{
+    color:#3bf203eb
+}
+.error{
+    color: rgb(255, 91, 91);
+}
+
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type:none;
+
+}
+
+.menu ul li{
+    display:inline;
+    padding: 1% ;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:coral ;
+}
+
+.menu ul li a:hover{
+    color: #64fa37;
+}
+
+
+
+
+/* css for main - content */
+
+.main-content{
+    margin: 0 0;
+    background-color: lightblue;
+    padding: 3%;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2% ;
+    float: left;
+}
+
+
+
+/*css for footer  */
+.footer{
+background-color: coral;
+color: white;
+}
+
+
+/* CSS for add-admin.php */
+.tbl-addAdmin{
+    width: 50%;
+
+}
+
+.tbl-updatepw{
+    width: 40%;
+
+}
+
+/* css for login */
+
+.login{
+    border:1px solid rgb(26, 26, 197);
+    width: 20%;
+    margin: 5% auto;
+    padding:2%;
+}
+
+.btn-login{
+    background-color: rgb(4, 182, 16);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+/* for UpdTE Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
